@@ -1,0 +1,64 @@
+/* General Reset (optional but recommended) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  background-color: #f5f6f8;
+  color: #2d314d;
+}
+
+/* First Section Styles */
+.home {
+  position: relative;
+  padding: 8rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: white;
+  background-image: 
+    url('./images/bg-intro-desktop.svg'), 
+    url('./images/icon-budgeting.svg');
+  background-position: left top, right center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 80vh;
+}
+
+/* Heading */
+.home .main__header {
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+/* Paragraph */
+.home .main__paragraph {
+  font-size: 1.6rem;
+  color: #9698a6;
+  max-width: 550px;
+  margin-bottom: 2.5rem;
+}
+
+/* Button */
+.home button {
+  background-color: #31d35c;
+  color: white;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home button:hover {
+  background-color: #2bb24c;
+}
